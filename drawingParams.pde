@@ -36,7 +36,7 @@ void loadImages() {
   wallImage = loadImage("wall.png");
   floorImage = loadImage("floor.png");
   doorImage = loadImage("door.png");
-  playerImage = loadImage("luna.png");
+  playerImage = loadImage("player.png");
   backgroundMenuImage = loadImage("bg1.png");
   backgroundPauseImage = loadImage("bg2.png");
   backgroundDefeatImage = loadImage("bg3.png");

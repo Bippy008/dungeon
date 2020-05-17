@@ -111,13 +111,13 @@ void drawVictory() {
 void keyPressed() {
   switch (state) {
     case MENU_STATE:
-      keyPressedinMenu();
+      keyPressedInMenu();
       break;
     case GAME_STATE:
       keyPressedInGame();
       break;
     case DEFEAT_STATE:
-      keyPressedinDefeat();
+      keyPressedInDefeat();
       break;
     case PAUSE_STATE:
       keyPressedOnPause();
@@ -129,7 +129,7 @@ void keyPressed() {
   }
 }
 
-void keyPressedinMenu() {
+void keyPressedInMenu() {
   if (keyCode == ENTER) {
     currentLevelIndex = -1;
     playerScore = 0;
@@ -138,7 +138,7 @@ void keyPressedinMenu() {
   }
 }
 
-void keyPressedinDefeat() {
+void keyPressedInDefeat() {
   if (keyCode == ENTER) {
     state = MENU_STATE;
   }
