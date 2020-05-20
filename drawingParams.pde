@@ -12,6 +12,7 @@ PImage wallImage;
 PImage floorImage;
 PImage doorImage;
 PImage playerImage;
+PImage ponyImage;
 PImage backgroundMenuImage;
 PImage backgroundPauseImage;
 PImage backgroundDefeatImage;
@@ -37,6 +38,7 @@ void loadImages() {
   floorImage = loadImage("floor.png");
   doorImage = loadImage("door.png");
   playerImage = loadImage("player.png");
+  ponyImage = loadImage("pony.png");
   backgroundMenuImage = loadImage("bg1.png");
   backgroundPauseImage = loadImage("bg2.png");
   backgroundDefeatImage = loadImage("bg3.png");

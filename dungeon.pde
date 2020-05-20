@@ -83,6 +83,7 @@ void drawDefeat() {
 }
 
 float angle = 0;
+
 void drawVictory() {
   noStroke();
   pushMatrix();
@@ -92,7 +93,7 @@ void drawVictory() {
     angle += 0.00005;
     translate(i * 10, 0);
     fill(200 * i / 100.0);
-    rect(0, 0, 100, 100);    
+    image(ponyImage, 0, 0, 100, 100);    
   }    
   popMatrix();
   
